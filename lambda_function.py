@@ -69,7 +69,7 @@ def lambda_handler(event, context):
             'statusCode': 200,
             'body': json.dumps({
                 'message': 'Blog generation complete!',
-                'blog': generated_blog  # Including the generated blog in response
+                'blog': generated_blog  
             }),
             'headers': {
                 'Content-Type': 'application/json'
