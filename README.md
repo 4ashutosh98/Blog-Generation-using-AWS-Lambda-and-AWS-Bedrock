@@ -52,7 +52,7 @@ This repository contains the code for blog generation using generative artificia
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.11
 - An AWS account with the necessary permissions
 - Git
 
