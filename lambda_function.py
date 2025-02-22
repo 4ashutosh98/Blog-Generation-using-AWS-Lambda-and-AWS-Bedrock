@@ -52,7 +52,6 @@ def save_blog_details_s3(s3_key, s3_bucket, generated_blog):
     
 def lambda_handler(event, context):
     # TODO implement
-
     event = json.loads(event['body'])
     blogtopic = event['blog_topic']
     generated_blog = blog_generate_using_bedrock(blogtopic=blogtopic)
@@ -76,7 +75,7 @@ def lambda_handler(event, context):
                 'Content-Type': 'application/json'
             }
         }
-
+    
     else:
         # Return failure response
         return {
