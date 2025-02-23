@@ -91,7 +91,7 @@ This project features CI/CD capabilities using GitHub Actions. Any updates pushe
 The application is deployed on [share.streamlit.io](https://share.streamlit.io) so that users can try out the blog generation functionality without any local setup.
 
 **Access the live demo here:**  
-[Blog Generation App](https://blog-generation-using-aws-lambda-and-aws-bedrock-ash.streamlit.app/)
+[Blog Generation App](https://blog-generation-using-aws-lambda-and-aws-bedrock-ac.streamlit.app/)
 
 ## Contributing
 
