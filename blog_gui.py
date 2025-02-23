@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-# Set the URL for the AWS Lambda function
+# Set the URL for the AWS Lambda function by obtaining it from the environment variable
 LAMBDA_URL = os.getenv("LAMBDA_URL")
 
 
