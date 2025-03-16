@@ -5,6 +5,7 @@ A Python-based application that leverages AWS services and generative AI to auto
 ## Table of Contents
 
 - [Overview](#overview)
+- [Technologies Used](#technologies-used)
 - [Architecture](#architecture)
 - [Features](#features)
 - [Getting Started](#getting-started)
@@ -16,6 +17,32 @@ A Python-based application that leverages AWS services and generative AI to auto
 ## Overview
 
 This repository contains the code for blog generation using generative artificial intelligence. The application is written in Python and utilizes several AWS services, including AWS Lambda, AWS Bedrock, API Gateway, Cloudwatch, and S3. The Streamlit GUI makes it easy for users to interact with the system and generate blog posts effortlessly.
+
+## Technologies Used
+
+### Programming Languages & Libraries
+- **Python 3.11**: Primary programming language
+- **Streamlit**: Web application framework for the user interface
+- **Boto3**: AWS SDK for Python to interact with AWS services
+- **Requests**: HTTP library for making API calls
+- **Python-dotenv**: For loading environment variables
+- **Regular Expressions (re)**: For text processing
+
+### AWS Services
+- **AWS Lambda**: Serverless compute service for running code
+- **AWS Bedrock**: AI foundation model service providing access to LLMs
+- **Amazon S3**: Object storage for saving generated blogs
+- **API Gateway**: Managed service for creating and managing APIs
+- **CloudWatch**: Monitoring and logging service
+- **IAM**: Identity and Access Management for security
+
+### AI Models
+- **Meta's Llama3-8b-instruct-v1:0**: Open-source LLM used for content generation
+
+### DevOps & CI/CD
+- **GitHub Actions**: Automated CI/CD pipeline
+- **Git**: Version control system
+- **AWS CLI**: Command-line tool for AWS management
 
 ## Architecture
 
